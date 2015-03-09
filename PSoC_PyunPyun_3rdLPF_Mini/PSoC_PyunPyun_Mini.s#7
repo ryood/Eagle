@@ -13408,7 +13408,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <instance part="C10" gate="G$1" x="144.78" y="66.04"/>
 <instance part="P+3" gate="1" x="137.16" y="76.2"/>
 <instance part="GND2" gate="1" x="137.16" y="53.34"/>
-<instance part="JP6" gate="A" x="12.7" y="22.86"/>
+<instance part="JP6" gate="A" x="12.7" y="144.78"/>
 <instance part="IC1" gate="A" x="73.66" y="66.04"/>
 <instance part="IC1" gate="B" x="58.42" y="124.46"/>
 </instances>

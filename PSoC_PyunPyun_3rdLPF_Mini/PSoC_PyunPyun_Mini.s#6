@@ -13474,8 +13474,13 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <wire x1="96.52" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="66.04" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="JP5" gate="A" pin="1"/>
-<wire x1="116.84" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
 <junction x="99.06" y="66.04"/>
+<pinref part="JP5" gate="A" pin="4"/>
+<wire x1="109.22" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="58.42" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+<junction x="109.22" y="66.04"/>
 </segment>
 </net>
 <net name="IDAC7" class="0">
