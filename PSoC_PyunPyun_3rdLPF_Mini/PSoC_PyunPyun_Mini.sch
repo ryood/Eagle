@@ -13171,6 +13171,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <part name="C4" library="rcl" deviceset="C-EU" device="050-024X044" value="0.01uF"/>
 <part name="JP8" library="pinhead" deviceset="PINHD-1X1" device="" value="TP-VGND"/>
 <part name="JP9" library="pinhead" deviceset="PINHD-1X1" device="" value="TP-GND"/>
+<part name="AGND3" library="supply1" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13205,7 +13206,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <instance part="C10" gate="G$1" x="157.48" y="50.8"/>
 <instance part="P+3" gate="1" x="157.48" y="76.2"/>
 <instance part="GND2" gate="VR1" x="170.18" y="45.72"/>
-<instance part="JP6" gate="A" x="12.7" y="144.78"/>
+<instance part="JP6" gate="A" x="0" y="144.78" rot="MR0"/>
 <instance part="IC1" gate="A" x="93.98" y="66.04"/>
 <instance part="IC1" gate="B" x="58.42" y="124.46"/>
 <instance part="IC1" gate="P" x="93.98" y="66.04"/>
@@ -13217,6 +13218,7 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <instance part="C4" gate="G$1" x="48.26" y="60.96"/>
 <instance part="JP8" gate="G$1" x="91.44" y="132.08"/>
 <instance part="JP9" gate="G$1" x="154.94" y="96.52"/>
+<instance part="AGND3" gate="VR1" x="10.16" y="134.62"/>
 </instances>
 <busses>
 </busses>
@@ -13421,6 +13423,12 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 <pinref part="GND2" gate="VR1" pin="AGND"/>
 <wire x1="170.18" y1="55.88" x2="170.18" y2="48.26" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="A" pin="1"/>
+<pinref part="AGND3" gate="VR1" pin="AGND"/>
+<wire x1="2.54" y1="152.4" x2="10.16" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="152.4" x2="10.16" y2="137.16" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3.3V" class="0">
 <segment>
@@ -13500,9 +13508,9 @@ Source: http://cache.national.com/ds/LM/LM158.pdf</description>
 </net>
 <net name="IDAC7" class="0">
 <segment>
-<pinref part="JP3" gate="A" pin="10"/>
-<wire x1="101.6" y1="109.22" x2="106.68" y2="109.22" width="0.1524" layer="91"/>
-<label x="106.68" y="109.22" size="1.778" layer="95"/>
+<pinref part="JP3" gate="A" pin="8"/>
+<wire x1="101.6" y1="114.3" x2="114.3" y2="114.3" width="0.1524" layer="91"/>
+<label x="106.68" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
