@@ -15445,7 +15445,7 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <part name="R2" library="rcl" deviceset="R-TRIMM" device="3339P" value="100"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="0207/7" value="1k"/>
 <part name="IC1" library="ic-package" deviceset="DIL10" device="" value="TLV1117-33"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="0207/7" value="100"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="0207/7" value="33"/>
 <part name="S1" library="switch" deviceset="TL36PO" device=""/>
 </parts>
 <sheets>
